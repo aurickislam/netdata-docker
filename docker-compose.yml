@@ -3,6 +3,7 @@ version: '3.7'
 services:
   netdata:
     image: netdata/netdata
+    container_name: netdata
     hostname: netdata
     ports:
       - 19999:19999
